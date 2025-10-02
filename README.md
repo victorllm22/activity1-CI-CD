@@ -1,2 +1,5 @@
-# activity1-CI-CD
-This is a repo made as a solution to the first activity of the subject CI/CD
+# Repo para EIEC - DevOps - UNIR
+
+Este repositorio nos servirá para demostrar el uso de Git en la asignatura de EIEC y muchas cosas mas.
+
+
