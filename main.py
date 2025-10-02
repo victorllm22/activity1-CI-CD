@@ -18,6 +18,9 @@ if __name__ == "__main__":
     filename = DEFAULT_FILENAME
     if len(sys.argv) == 2:
         filename = sys.argv[1]
+    elif len(sys.argv) > 2:
+        print("Se debe indicar un unico argumento con el nombre del fichero")
+        sys.exit(2)
     else:
         print("Se debe indicar el fichero como primer argumento")
         sys.exit(1)
@@ -35,4 +38,6 @@ if __name__ == "__main__":
         word_list = ["ravenclaw", "gryffindor", "slytherin", "hufflepuff"]
 
     print(sort_list(word_list))
+    print("Ahora se imprimira la lista con elementos unicos")
+    print(set(word_list))
 
